@@ -1,0 +1,334 @@
+[debug] [2022-05-27T17:16:08.192Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T17:16:08.192Z] Command:       /Users/arthursilva/.nvm/versions/node/v16.15.0/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-05-27T17:16:08.193Z] CLI Version:   10.8.0
+[debug] [2022-05-27T17:16:08.193Z] Platform:      darwin
+[debug] [2022-05-27T17:16:08.193Z] Node Version:  v16.15.0
+[debug] [2022-05-27T17:16:08.194Z] Time:          Fri May 27 2022 13:16:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-27T17:16:08.194Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T17:16:08.219Z] Field ".emulators.hosting.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-05-27T17:16:08.221Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T17:16:08.221Z] > authorizing via signed-in user (arthur2335silva@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-05-27T17:16:08.234Z] [hub] writing locator at /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/hub-quotes-project-as.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-27T17:16:08.247Z] defaultcredentials: writing to file /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json
+[debug] [2022-05-27T17:16:08.248Z] Setting GAC to /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-27T17:16:08.250Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/adminSdkConfig [none]
+[debug] [2022-05-27T17:16:08.692Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/adminSdkConfig 200
+[debug] [2022-05-27T17:16:08.692Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/adminSdkConfig {"projectId":"quotes-project-as","storageBucket":"quotes-project-as.appspot.com","locationId":"us-central"}
+[debug] [2022-05-27T17:16:08.722Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/quotes-project-as/sites 
+[debug] [2022-05-27T17:16:09.720Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/quotes-project-as/sites 200
+[debug] [2022-05-27T17:16:09.720Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/quotes-project-as/sites {"sites":[{"name":"projects/quotes-project-as/sites/quotes-project-as","defaultUrl":"https://quotes-project-as.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-27T17:16:09.721Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/webApps/-/config [none]
+[debug] [2022-05-27T17:16:10.747Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/webApps/-/config 200
+[debug] [2022-05-27T17:16:10.747Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quotes-project-as/webApps/-/config {"projectId":"quotes-project-as","storageBucket":"quotes-project-as.appspot.com","locationId":"us-central","apiKey":"AIzaSyBASj0LgxeGvpEMrCOJER6vFue9ZJAhlAE","authDomain":"quotes-project-as.firebaseapp.com","messagingSenderId":"99870140606"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5050 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5050\u001b[22m\u001b[24m"}}
+[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4003 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4003 instead."}}
+[debug] [2022-05-27T17:16:10.838Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-27T17:16:10.838Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-27T17:16:10.838Z] Starting Emulator UI with command {"binary":"node","args":["/Users/arthursilva/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/arthursilva/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-27T17:16:10.904Z] Web / API server started at localhost:4003
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4003\n"}}
+[info] i  functions: Watching "/Users/arthursilva/code/quotes-project-as/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/arthursilva/code/quotes-project-as/functions\" for Cloud Functions..."}}
+[debug] [2022-05-27T17:16:11.108Z] Validating nodejs source
+[debug] [2022-05-27T17:16:11.855Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-27T17:16:11.856Z] Building nodejs source
+[debug] [2022-05-27T17:16:11.856Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/quotes-project-as/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/quotes-project-as/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4003                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4003/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5050 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] [hosting] Rewriting /addNewQuote to http://localhost:5001/quotes-project-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-27T17:16:22.866Z] >>> [apiv2][query] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 
+[debug] [2022-05-27T17:16:22.866Z] >>> [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[debug] [2022-05-27T17:16:22.872Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-27T17:16:22.872Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-27T17:16:22.873Z] Accepted request POST /quotes-project-as/us-central1/api/addNewQuote --> us-central1-api
+[debug] [2022-05-27T17:16:22.882Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-27T17:16:22.882Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-27T17:16:22.882Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-27T17:16:22.882Z] [worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24360.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24360.sock"}}
+[debug] [2022-05-27T17:16:22.883Z] [worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: BUSY"}}
+[debug] [2022-05-27T17:16:23.414Z] [runtime-status] [24360] Functions runtime initialized. {"cwd":"/Users/arthursilva/code/quotes-project-as/functions","node_version":"16.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Functions runtime initialized. {\"cwd\":\"/Users/arthursilva/code/quotes-project-as/functions\",\"node_version\":\"16.15.0\"}"}}
+[debug] [2022-05-27T17:16:23.415Z] [runtime-status] [24360] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Disabled runtime features: undefined"}}
+[debug] [2022-05-27T17:16:23.416Z] [runtime-status] [24360] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.416Z] [runtime-status] [24360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.417Z] [runtime-status] [24360] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-27T17:16:23.417Z] [runtime-status] [24360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.435Z] [runtime-status] [24360] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-27T17:16:23.435Z] [runtime-status] [24360] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:16:23.435Z] [runtime-status] [24360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.435Z] [runtime-status] [24360] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.436Z] [runtime-status] [24360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:16:23.436Z] [runtime-status] [24360] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:16:23.585Z] [runtime-status] [24360] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-27T17:16:23.585Z] [runtime-status] [24360] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Running api in signature http"}}
+[debug] [2022-05-27T17:16:23.586Z] [runtime-status] [24360] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24360.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24360.sock"}}
+[debug] [2022-05-27T17:16:23.588Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-27T17:16:23.589Z] [functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote"}}
+[debug] [2022-05-27T17:16:23.597Z] [runtime-status] [24360] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Ephemeral server handling POST request"}}
+[debug] [2022-05-27T17:16:23.598Z] [runtime-status] [24360] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24360] Ephemeral server survived."}}
+[info] >  file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18 {"user":"file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18"}}
+[info] >    await db.collection('MotivationalQuotes').add(req.body) {"user":"  await db.collection('MotivationalQuotes').add(req.body)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   await db.collection('MotivationalQuotes').add(req.body)"}}
+[info] >    ^ {"user":"  ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  ReferenceError: db is not defined {"user":"ReferenceError: db is not defined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m ReferenceError: db is not defined"}}
+[info] >      at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18:3 {"user":"    at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18:3","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:18:3"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[info] >      at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13) {"user":"    at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13)"}}
+[info] >      at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3) {"user":"    at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3)"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[info] >      at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15 {"user":"    at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15"}}
+[info] >      at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12) {"user":"    at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12)"}}
+[info] >      at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10) {"user":"    at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10)"}}
+[info] >      at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7) {"user":"    at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7)"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[debug] [2022-05-27T17:16:23.604Z] <<< [apiv2][status] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 200
+[debug] [2022-05-27T17:16:23.604Z] <<< [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[info] i  hosting: 127.0.0.1 - - [27/May/2022:17:16:23 +0000] "POST /addNewQuote HTTP/1.1" 200 0 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/May/2022:17:16:23 +0000] \"POST /addNewQuote HTTP/1.1\" 200 0 \"-\" \"PostmanRuntime/7.29.0\""}}
+[debug] [2022-05-27T17:16:23.605Z] [worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: exited"}}
+[debug] [2022-05-27T17:16:23.605Z] [worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fa9e9165-b0c5-4903-b489-73b125261a3c]: FINISHED"}}
+[debug] [2022-05-27T17:16:23.605Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-27T17:17:43.034Z] File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers"}}
+[debug] [2022-05-27T17:17:44.039Z] Validating nodejs source
+[debug] [2022-05-27T17:17:44.602Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-27T17:17:44.603Z] Building nodejs source
+[debug] [2022-05-27T17:17:44.603Z] Analyzing nodejs backend spec
+[debug] [2022-05-27T17:18:13.871Z] File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers"}}
+[debug] [2022-05-27T17:18:14.875Z] Validating nodejs source
+[debug] [2022-05-27T17:18:15.606Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-27T17:18:15.606Z] Building nodejs source
+[debug] [2022-05-27T17:18:15.606Z] Analyzing nodejs backend spec
+[info] [hosting] Rewriting /addNewQuote to http://localhost:5001/quotes-project-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-27T17:18:16.905Z] >>> [apiv2][query] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 
+[debug] [2022-05-27T17:18:16.905Z] >>> [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[debug] [2022-05-27T17:18:16.912Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-27T17:18:16.913Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-27T17:18:16.913Z] Accepted request POST /quotes-project-as/us-central1/api/addNewQuote --> us-central1-api
+[debug] [2022-05-27T17:18:16.913Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-05-27T17:18:16.920Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-27T17:18:16.921Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-27T17:18:16.921Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-27T17:18:16.921Z] [worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24400.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24400.sock"}}
+[debug] [2022-05-27T17:18:16.921Z] [worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: BUSY"}}
+[debug] [2022-05-27T17:18:17.519Z] [runtime-status] [24400] Functions runtime initialized. {"cwd":"/Users/arthursilva/code/quotes-project-as/functions","node_version":"16.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Functions runtime initialized. {\"cwd\":\"/Users/arthursilva/code/quotes-project-as/functions\",\"node_version\":\"16.15.0\"}"}}
+[debug] [2022-05-27T17:18:17.521Z] [runtime-status] [24400] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Disabled runtime features: undefined"}}
+[debug] [2022-05-27T17:18:17.521Z] [runtime-status] [24400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.522Z] [runtime-status] [24400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.522Z] [runtime-status] [24400] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-27T17:18:17.522Z] [runtime-status] [24400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.534Z] [runtime-status] [24400] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-27T17:18:17.534Z] [runtime-status] [24400] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:18:17.534Z] [runtime-status] [24400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.535Z] [runtime-status] [24400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.535Z] [runtime-status] [24400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:17.535Z] [runtime-status] [24400] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:18:17.627Z] [runtime-status] [24400] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-27T17:18:17.627Z] [runtime-status] [24400] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Running api in signature http"}}
+[debug] [2022-05-27T17:18:17.628Z] [runtime-status] [24400] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24400.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24400.sock"}}
+[debug] [2022-05-27T17:18:17.631Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-27T17:18:17.632Z] [functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote"}}
+[debug] [2022-05-27T17:18:17.641Z] [runtime-status] [24400] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Ephemeral server handling POST request"}}
+[debug] [2022-05-27T17:18:17.641Z] [runtime-status] [24400] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24400] Ephemeral server survived."}}
+[info] >  file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21 {"user":"file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21"}}
+[info] >    await db.collection('MotivationalQuotes').add(req.body) {"user":"  await db.collection('MotivationalQuotes').add(req.body)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   await db.collection('MotivationalQuotes').add(req.body)"}}
+[info] >             ^ {"user":"           ^","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m            ^"}}
+[info] >   {"user":"","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m "}}
+[info] >  TypeError: db.collection is not a function {"user":"TypeError: db.collection is not a function","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m TypeError: db.collection is not a function"}}
+[info] >      at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21:12 {"user":"    at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21:12","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at file:///Users/arthursilva/code/quotes-project-as/functions/index.js:21:12"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[info] >      at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13) {"user":"    at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:144:13)"}}
+[info] >      at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3) {"user":"    at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Route.dispatch (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/route.js:114:3)"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[info] >      at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15 {"user":"    at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at /Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:284:15"}}
+[info] >      at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12) {"user":"    at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.process_params (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:346:12)"}}
+[info] >      at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10) {"user":"    at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/index.js:280:10)"}}
+[info] >      at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7) {"user":"    at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at jsonParser (/Users/arthursilva/code/quotes-project-as/functions/node_modules/body-parser/lib/types/json.js:101:7)"}}
+[info] >      at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (/Users/arthursilva/code/quotes-project-as/functions/node_modules/express/lib/router/layer.js:95:5)"}}
+[debug] [2022-05-27T17:18:17.646Z] <<< [apiv2][status] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 200
+[debug] [2022-05-27T17:18:17.646Z] <<< [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[info] i  hosting: 127.0.0.1 - - [27/May/2022:17:18:17 +0000] "POST /addNewQuote HTTP/1.1" 200 0 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/May/2022:17:18:17 +0000] \"POST /addNewQuote HTTP/1.1\" 200 0 \"-\" \"PostmanRuntime/7.29.0\""}}
+[debug] [2022-05-27T17:18:17.646Z] [worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: exited"}}
+[debug] [2022-05-27T17:18:17.646Z] [worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-d1ccb163-8b4f-413d-9d26-526118bb2594]: FINISHED"}}
+[debug] [2022-05-27T17:18:17.646Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-27T17:18:53.748Z] File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/arthursilva/code/quotes-project-as/functions/index.js changed, reloading triggers"}}
+[debug] [2022-05-27T17:18:54.757Z] Validating nodejs source
+[debug] [2022-05-27T17:18:55.334Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-27T17:18:55.334Z] Building nodejs source
+[debug] [2022-05-27T17:18:55.334Z] Analyzing nodejs backend spec
+[info] [hosting] Rewriting /addNewQuote to http://localhost:5001/quotes-project-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-27T17:18:56.668Z] >>> [apiv2][query] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 
+[debug] [2022-05-27T17:18:56.668Z] >>> [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[debug] [2022-05-27T17:18:56.671Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-27T17:18:56.671Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-27T17:18:56.671Z] Accepted request POST /quotes-project-as/us-central1/api/addNewQuote --> us-central1-api
+[debug] [2022-05-27T17:18:56.671Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-05-27T17:18:56.677Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-27T17:18:56.677Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-27T17:18:56.677Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-27T17:18:56.678Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock"}}
+[debug] [2022-05-27T17:18:56.678Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: BUSY"}}
+[debug] [2022-05-27T17:18:57.259Z] [runtime-status] [24432] Functions runtime initialized. {"cwd":"/Users/arthursilva/code/quotes-project-as/functions","node_version":"16.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Functions runtime initialized. {\"cwd\":\"/Users/arthursilva/code/quotes-project-as/functions\",\"node_version\":\"16.15.0\"}"}}
+[debug] [2022-05-27T17:18:57.259Z] [runtime-status] [24432] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Disabled runtime features: undefined"}}
+[debug] [2022-05-27T17:18:57.260Z] [runtime-status] [24432] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.260Z] [runtime-status] [24432] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.260Z] [runtime-status] [24432] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-27T17:18:57.261Z] [runtime-status] [24432] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.272Z] [runtime-status] [24432] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-27T17:18:57.273Z] [runtime-status] [24432] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:18:57.273Z] [runtime-status] [24432] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.274Z] [runtime-status] [24432] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.274Z] [runtime-status] [24432] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-27T17:18:57.274Z] [runtime-status] [24432] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/Users/arthursilva/code/quotes-project-as/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-27T17:18:57.380Z] [runtime-status] [24432] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-27T17:18:57.380Z] [runtime-status] [24432] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Running api in signature http"}}
+[debug] [2022-05-27T17:18:57.381Z] [runtime-status] [24432] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock"}}
+[debug] [2022-05-27T17:18:57.383Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-27T17:18:57.383Z] [functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quotes-project-as/us-central1/api/addNewQuote, mapping to path=/addNewQuote"}}
+[debug] [2022-05-27T17:18:57.392Z] [runtime-status] [24432] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Ephemeral server handling POST request"}}
+[debug] [2022-05-27T17:18:57.430Z] [runtime-status] [24432] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Ephemeral server survived."}}
+[debug] [2022-05-27T17:18:58.682Z] <<< [apiv2][status] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote 201
+[debug] [2022-05-27T17:18:58.682Z] <<< [apiv2][body] POST http://localhost:5001/quotes-project-as/us-central1/api/addNewQuote [stream]
+[info] i  hosting: 127.0.0.1 - - [27/May/2022:17:18:58 +0000] "POST /addNewQuote HTTP/1.1" 201 40 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/May/2022:17:18:58 +0000] \"POST /addNewQuote HTTP/1.1\" 201 40 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-27T17:18:58.685Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: IDLE"}}
+[debug] [2022-05-27T17:18:58.685Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /quotes to http://localhost:5001/quotes-project-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-27T17:19:42.230Z] >>> [apiv2][query] GET http://localhost:5001/quotes-project-as/us-central1/api/quotes 
+[info] i  hosting: 127.0.0.1 - - [27/May/2022:17:19:58 +0000] "GET /quotes HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/May/2022:17:19:58 +0000] \"GET /quotes HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /quotes to http://localhost:5001/quotes-project-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-27T17:20:04.147Z] >>> [apiv2][query] GET http://localhost:5001/quotes-project-as/us-central1/api/quotes 
+[debug] [2022-05-27T17:20:04.151Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-27T17:20:04.151Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-27T17:20:04.151Z] Accepted request GET /quotes-project-as/us-central1/api/quotes --> us-central1-api
+[debug] [2022-05-27T17:20:04.151Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-27T17:20:04.152Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock"}}
+[debug] [2022-05-27T17:20:04.152Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: BUSY"}}
+[debug] [2022-05-27T17:20:04.156Z] [runtime-status] [24432] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-27T17:20:04.156Z] [runtime-status] [24432] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Running api in signature http"}}
+[debug] [2022-05-27T17:20:04.160Z] [runtime-status] [24432] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_24432.sock"}}
+[debug] [2022-05-27T17:20:04.165Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-27T17:20:04.166Z] [functions] Got req.url=/quotes-project-as/us-central1/api/quotes, mapping to path=/quotes {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quotes-project-as/us-central1/api/quotes, mapping to path=/quotes"}}
+[debug] [2022-05-27T17:20:04.169Z] [runtime-status] [24432] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Ephemeral server handling GET request"}}
+[debug] [2022-05-27T17:20:04.172Z] [runtime-status] [24432] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [24432] Ephemeral server survived."}}
+[debug] [2022-05-27T17:20:04.306Z] <<< [apiv2][status] GET http://localhost:5001/quotes-project-as/us-central1/api/quotes 200
+[debug] [2022-05-27T17:20:04.306Z] <<< [apiv2][body] GET http://localhost:5001/quotes-project-as/us-central1/api/quotes [stream]
+[info] i  hosting: 127.0.0.1 - - [27/May/2022:17:20:04 +0000] "GET /quotes HTTP/1.1" 200 130 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/May/2022:17:20:04 +0000] \"GET /quotes HTTP/1.1\" 200 130 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-27T17:20:04.310Z] [worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-171e839d-96b9-4e76-b745-313b40d1afab]: IDLE"}}
+[debug] [2022-05-27T17:20:04.311Z] [work-queue] {"queueLength":0,"workRunningCount":0}
